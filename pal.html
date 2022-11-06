@@ -51,21 +51,20 @@
 					<div id="main">
 						<div class="inner">
 							<h1>MS Power BI PAL Dashboard</h1>
-							<p>	Product performance excel dashboards help visualize the overall metrics of an organization. 
-								This dashboard contains data from various customers of Product Analysis Lab (PAL) such as External Failure Analysis Request (EFAR), Manufacturing, NPI, and REL. 
-								It consists of the overall received requests, closed requests, backlogs, and cycle time.</p>
+							<p>	This dashboard is a product performance power BI dashboard that tracks the overall productivity of an organization. 
+								It displays the total numerical backlog values per customer or category, and the also for selection of months and years. 
+								It also has different kinds of charts for the overall performance in terms of received requests, closed requests and comparison of actual cycle time from each customers or categories of Product Analysis Lab.</p>
 							
-							<p>The goal of this dashboard is to consolidate and organize the data per customer or category, to show how the overall received requests, closed requests, and backlogs affect the overall cycle per customer, and to categorize the data by choosing the workweek or months needed. 
-							   Also to display the desired months and workweek through slicers.</p>
-							<p>Pivot tables and charts are used to achieve the goal of the dashboard. 
-								The overall source data is arranged in a separate excel sheet. 
-								A VBA code is inserted into the source data sheet to achieve a connection on all the pivot tables and charts whenever the source data will be edited. 
-								Then, a custom combination chart is applied per category (EFAR, Manufacturing, NPI, and REL) to easily visualize the data. 
-								Clustered column chart is used for the sum of the received requests, closed requests, and backlogs to compare multiple data series of each category directly and show the variance across different parameters. 
-								Line with markers is also used for the comparison of the average of both the actual cycle time and target cycle time.
-								Slicers also indicate the current filtering state, which makes it easy to understand what exactly is currently displayed and to filter the workweek and months needed.
-								A Pivot Table is an extremely powerful tool that you can use to slice and dice data. 
-								You can track, and analyze hundreds of thousands of data points with a compact table that can be changed dynamically to enable you to find the different perspectives of the data. It is a simple tool to use, yet powerful.</p>
+							<p>	The goal of this dashboard is to easily demonstrate the overall performance of the Product Analysis Lab through various kinds of data visualization. 
+								It is important to present a data in a way that it can easily be analyzed and interpret by the user.</p>
+							
+							<p>	The dashboard is divided into several sections. For the overall PAL data, a clustered column chart is applied to show the comparison of backlogs, closed and received requests. 
+								Donut chart is used to compare the received request from the different customers or categories to the overall PAL received requests. 
+								This chart is best used to compare a particular section to the whole, rather than comparing individual sections with each other. 
+								To present sequential values to help you identify the trend of each categories over time, line chart is the best chart to use. 
+								Stacked charts are an incredibly effective tool for comparisons and designed to compare total values across categories. 
+								For the filtering of months and years, slicers is also applied. 
+								Card is useful to show a single numerical value of the backlogs from each categories.</p>
 							<span class="image main"><img src="images/Overall_PAL_Dashboard.png" alt="" /></span>
 
 						</div>
